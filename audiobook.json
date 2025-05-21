@@ -1,20 +1,33 @@
-{
-  "users": [
-    {
-      "id": 1,
-      "name": "Alice Johnson",
-      "email": "alice.johnson@example.com",
-      "isActive": true,
-      "roles": ["admin", "editor"]
+[
+  {
+    "id": 1,
+    "name": "User 1",
+    "email": "user1@example.com",
+    "phone": "+1-202-555-0101",
+    "address": {
+      "street": "Main Street 1",
+      "city": "Metropolis",
+      "zipcode": "10001"
     },
-    {
-      "id": 2,
-      "name": "Bob Smith",
-      "email": "bob.smith@example.com",
-      "isActive": false,
-      "roles": ["viewer"]
+    "company": {
+      "name": "TechCorp",
+      "department": "Development"
+    }
+  },
+  {
+    "id": 2,
+    "name": "User 2",
+    "email": "user2@example.com",
+    "phone": "+1-202-555-0102",
+    "address": {
+      "street": "Main Street 2",
+      "city": "Metropolis",
+      "zipcode": "10002"
     },
-    {
-      "id": 3,
-      "name": "Charlie Lee",
-      "email": "charlie.lee
+    "company": {
+      "name": "InnovateX",
+      "department": "Marketing"
+    }
+  }
+  // ... and so on up to 100 users
+]
